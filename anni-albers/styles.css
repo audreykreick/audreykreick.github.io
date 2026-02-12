@@ -17,10 +17,25 @@ h2 {
     font-style: italic;
 }
 
-p {
+#row2 p,
+#row5 p,
+#row7 p,
+#row9 p {
     font-size: 1.2rem;
     line-height: 2.5rem;
     width: 50%;
+}
+
+#row1 p,
+#row3 p,
+#row4 p,
+#row6 p,
+#row8 p,
+#row10 p,
+#row11 p {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    width: 80%;
 }
 
 p.callout {
