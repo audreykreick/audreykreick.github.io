@@ -73,7 +73,7 @@ p.callout {
     'p10 p10 p10 p10 . .'
     'p11 p11 p11 p11 . .'
     'p12 p12 p12 p12 . .'
-    'p13 p13 p13 p13 . .';
+    '.p13 p13 p13 p13 . .';
 }
 
 #secondLayout #titleRow { grid-area: title; }
