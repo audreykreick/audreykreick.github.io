@@ -76,6 +76,7 @@ p.callout {
     '.p13 p13 p13 p13 . .';
 }
 
+/* assigning grid area names to DOM elements */
 #secondLayout #titleRow { grid-area: title; }
 #secondLayout #para1 {grid-area: p1; }
 #secondLayout #para2 {grid-area: p2; }
@@ -95,6 +96,7 @@ p.callout {
 #secondLayout #callout3 {grid-area: c3}
 #secondLayout #callout4 {grid-area: c4}
 
+/* overrode the baseline p style from above /*
 #secondLayout p {
     width: 100%;
 }
