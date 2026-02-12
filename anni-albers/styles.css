@@ -55,7 +55,7 @@ p.callout {
 
 /* rinherit the baseline main code, above */
 
-#secondLayout main {
+#secondLayout p main {
     display: grid;
     grid-template-columns: repeat(6, auto);
     grid-template-rows: repeat(13, auto);
@@ -94,3 +94,7 @@ p.callout {
 #secondLayout #callout2 {grid-area: c2}
 #secondLayout #callout3 {grid-area: c3}
 #secondLayout #callout4 {grid-area: c4}
+
+#secondLayout p {
+    width: 100%;
+}
