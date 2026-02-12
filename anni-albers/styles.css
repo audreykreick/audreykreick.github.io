@@ -57,7 +57,7 @@ p.callout {
 
 #secondLayout p main {
     display: grid;
-    grid-template-columns: repeat(6, auto);
+    grid-template-columns: repeat(6, calc(100% / 6) );
     grid-template-rows: repeat(13, auto);
     grid-template-areas:
     'title title tilte title title title'
