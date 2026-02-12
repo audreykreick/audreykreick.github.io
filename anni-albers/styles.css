@@ -32,12 +32,3 @@ p.callout {
     padding-left: 2em;
     margin-top: 0;
 }
-
-#row1 p,
-#row3 p,
-#row5 p,
-#row7 p,
-#row9 p,
-#row11 p {
-    margin-left: calc(100% / 6);
-}
