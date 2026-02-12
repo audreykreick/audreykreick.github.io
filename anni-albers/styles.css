@@ -25,7 +25,7 @@ p.callout {
     text-align: center;
     padding-left: 2em;
     margin-top: 0;
-    width: 30%
+    max-width: 30%
 }
 
 #row2 p,
