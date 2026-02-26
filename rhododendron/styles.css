@@ -24,6 +24,13 @@ header {
     background-position: center center;
 }
 
+#rhodiePicture2 {
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    image: ur
+}
+
 #rhodieTitle {
     position: absolute;
     width: 100vw;
