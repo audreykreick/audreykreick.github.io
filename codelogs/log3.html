@@ -1,38 +1,48 @@
-
 <!DOCTYPE html>
 <html>
-<head>
-	
-	<!-- meta tags and title -->
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CSS Media Queries</title>
 
-	<!-- external and internal CSS -->
-	<link rel="stylesheet" href="styles.css" media="all">
-	<style>
-		
+<head>
+
+    <!-- meta tags and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Media Queries</title>
+
+    <!-- external and internal CSS -->
+    <link rel="stylesheet" href="styles.css" media="all">
+    <style>
         textarea {
             border: none;
             padding: 5px;
             background: lightgray;
         }
-	</style>
+    </style>
 
 
 </head>
+
 <body>
 
-	<h1>Code Log 3: CSS Media Queries</h1>
+    <h1>Code Log 3: CSS Media Queries</h1>
 
     <h2>How does a CSS media query work, and why is it useful?</h2>
 
-    <p>The term absolute when talking about CSS length units means that the units are not relative to anything else. They are generally considered to always be the same size. Most absolute units are more useful when used for print, instead of screen output. Relative lenth units, on the other hand, are relative to something else. A benefit of using relative units is that you can make it so that the size of text or other elements scales are relative to everything else on the page. Below are some examples of both absolute and relative length units.</p>
+    <p>A CSS media query works by checking specific characteristics of a user’s device or browser (EX: screen width,
+        height, orientation, user preferences, etc.) and applying certain styles only when those conditions are met. Media
+        queries begin with the @media keyword, followed by one or more conditions written in parentheses. If the device
+        or browser matches those conditions, the CSS inside the media query is applied. If not, those styles are
+        ignored.
+
+        Media queries are especially useful for responsive web design. They allow developers to create layouts that
+        adapt to different screen sizes, like desktops, tablets, and smartphones. They can also
+        detect features like whether a device uses a touchscreen or a user’s preferred color scheme. Overall, media
+        queries make websites more flexible, accessible, and user-friendly by ensuring the design adjusts to different
+        environments.</p>
 
     <h2>What "media features" are supported by media queries, and what do they do?</h2>
 
     <p></p>
 
 </body>
-</html>
 
+</html>
