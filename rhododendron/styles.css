@@ -39,6 +39,15 @@ header {
     width: calc(100vw - 2em);
 }
 
+section {
+    
+    position: absolute;
+    left: 1em;
+    right: 1em;
+    font-size: .8em;
+    color: #06402b;
+}
+
 /* PUT THE REST OF THE MOBILE BASELINE LAYOUT HERE */
 
 @media screen and (orientation: landscape) {
