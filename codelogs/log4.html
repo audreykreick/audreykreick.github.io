@@ -26,7 +26,7 @@
     <h1>Code Log 4: CSS Color</h1>
 
     <p>The color CSS data type represents a color. A color may also include a transparency value,
-                showing how the color should show with its background. A color can be specified with the following methods:</p>
+        showing how the color should show with its background. A color can be specified with the following methods:</p>
 
     <textarea cols="45" rows="6">
 <named-color>, <system-color>, currentColor
@@ -60,19 +60,42 @@ light-dark()
 
     <h2><i>Named</i></h2>
 
-    <p></p>
+    <textarea cols="30" rows="1">
+<named-color>
+    </textarea>
+
+    <p>The name of a color, such as pink, green, lightblue, or black.</p>
 
     <h2><i>Hexadecimal</i></h2>
 
-    <p></p>
+    <textarea cols="30" rows="1">
+<hex-color>
+    </textarea>
+
+    <p>Notation for describing the hexadecimal color syntax of an sRGB color using its primary color components (red,
+        green, blue) written as hexadecimal numbers, as well as its transparency. There are multiple syntaxes from #RBG
+        to #RRGGBBAA.</p>
 
     <h2><i>RGB</i></h2>
 
-    <p></p>
+    <p><b>R or RR</b>
+        The red component of the color, as a case-insensitive hexadecimal number between 0 and ff.
+        <b>G or GG</b>
+        The green component of the color, as a case-insensitive hexadecimal number between 0 and ff.
+        <b>B or BB</b>
+        The blue component of the color, as a case-insensitive hexadecimal number between 0 and ff.
 
-    <h2><i>Any other format besides these 3</i></h2>
+        <b>A or AA</b> Optional
+        The alpha component of the color, indicating its transparency, as a case-insensitive hexadecimal number between
+        0 and ff.</p>
 
-    <p></p>
+    <h2><i>System Color</i></h2>
+
+    <p>Reflects the default color choices used for the different parts of a web page.</p>
+
+    <h2><i>Color Mix</i></h2>
+
+    <p>Takes two color values and returns the result of mixing them in a given colorspace by a given amount.</p>
 
 
 </body>
