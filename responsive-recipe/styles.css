@@ -45,34 +45,34 @@ li ul, li ol {
 
 /* REST OF THE DESKTOP LAYOUT HERE */
 
-@media screen and (orientation: landscape) {
-
-main {
-        max-width: 1000px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 40px;
-        padding: 40px;
-}
+@media screen and (min-width: 900px) {
 
 header {
-        flex-direction: row;
-        justify-content: space-between;
-        text-align: left;
-        max-width: 1000px;
-        margin: 0 auto;
-        gap: 40px;
-    }
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
 
-    header .header-text {
-        order: 1; 
-        flex: 1;
-        width: 55%;
-    }
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+}
 
 header img {
-        order: 2;
-        width: 45%;
-        margin: 0;
-    }
+    float: left;
+    width: 45%;
+    margin-right: 40px;
+}
+
+.main-text {
+    float: right;
+    width: 50%;
+}
+
+section {
+    clear: both;
+    margin-top: 40px;
+}
+
 }
