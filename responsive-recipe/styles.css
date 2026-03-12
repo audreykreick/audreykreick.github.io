@@ -64,7 +64,7 @@ header {
         gap: 40px;
     }
 
-    header .header-text .paragraph-text {
+    header .header-text {
         order: 1; 
         flex: 1;
         width: 55%;
