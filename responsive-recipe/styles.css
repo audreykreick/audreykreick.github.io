@@ -64,23 +64,15 @@ header {
         gap: 40px;
     }
 
-    header .header-text {
+    header .header-text .paragraph-text {
         order: 1; 
         flex: 1;
-    }
-
-    header img {
-        order: 2;
-        width: 40%; 
-        max-width: 450px;
+        width: 55%;
     }
 
 header img {
+        order: 2;
         width: 45%;
         margin: 0;
-    }
-
-header .header-text {
-        width: 55%;
     }
 }
