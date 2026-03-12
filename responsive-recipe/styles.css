@@ -8,7 +8,6 @@
 header {
     text-align: center;
     padding: 20px;
-    background-color: white;
 }
 
 h1 {
@@ -46,6 +45,8 @@ li ul, li ol {
 
 /* REST OF THE DESKTOP LAYOUT HERE */
 
+@media screen and (orientation: landscape) {
+
 main {
         max-width: 1000px;
         display: grid;
@@ -72,3 +73,4 @@ header img {
 header .header-text {
         width: 55%;
     }
+}
