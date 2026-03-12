@@ -41,9 +41,3 @@ li ul, li ol {
     margin-top: 5px;
     font-weight: normal;
 }
-
-@media (max-width: 600px) {
-    h1 {
-        font-size: 1.8rem;
-    }
-}
