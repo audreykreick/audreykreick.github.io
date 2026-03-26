@@ -58,6 +58,9 @@ li ul, li ol {
 
     header {
         grid-column: 1;
+        position: sticky;
+        align-self: start;
+        top: 0;
     }
 
     header .images {
@@ -72,6 +75,10 @@ li ul, li ol {
         width: 100%;
         height: auto;
         object-fit: cover;
+    }
+
+    footer{
+        grid-column: 2;
     }
 
 .main-text {
