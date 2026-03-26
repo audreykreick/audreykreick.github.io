@@ -1,0 +1,84 @@
+/* mobile-first design for Apple Pie layout */
+
+* {
+    box-sizing: border-box;
+    font-family: Times;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px; 
+    margin: 15px 0;
+}
+
+main {
+    padding: 15px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+li ul, li ol {
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+/* REST OF THE DESKTOP LAYOUT HERE */
+
+@media screen and (min-width: 800px) {
+
+    body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 1200px;
+        margin: 0 auto;
+        column-gap: 40px;
+        padding: 20px;
+    }
+
+    header {
+        grid-column: 1;
+    }
+
+    header .images {
+        grid-column: 2;
+        grid-row: 1 / 3;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    } 
+
+    header .images img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+.main-text {
+    grid-column: 1;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 130px;
+}
+
+}

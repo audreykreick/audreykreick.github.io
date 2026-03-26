@@ -19,7 +19,7 @@ header img {
     width: 100%;
     max-width: 600px;
     height: auto;
-    border-radius: 8px; 
+    border-radius: 8px;
     margin: 15px 0;
 }
 
@@ -29,7 +29,8 @@ main {
     margin: 0 auto;
 }
 
-ul, ol {
+ul,
+ol {
     padding-left: 20px;
 }
 
@@ -38,7 +39,8 @@ li {
     font-weight: 500;
 }
 
-li ul, li ol {
+li ul,
+li ol {
     margin-top: 5px;
     font-weight: normal;
 }
@@ -58,6 +60,9 @@ li ul, li ol {
 
     header {
         grid-column: 1;
+        position: sticky;
+        align-self: start;
+        top: 0;
     }
 
     header .images {
@@ -66,7 +71,7 @@ li ul, li ol {
         display: flex;
         flex-direction: column;
         gap: 20px;
-    } 
+    }
 
     header .images img {
         width: 100%;
@@ -74,11 +79,15 @@ li ul, li ol {
         object-fit: cover;
     }
 
-.main-text {
-    grid-column: 1;
-    padding: 10px;
-    margin-bottom: 20px;
-    margin-top: 130px;
-}
+    footer {
+        grid-column: 2;
+    }
+
+    .main-text {
+        grid-column: 1;
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-top: 130px;
+    }
 
 }
