@@ -69,6 +69,22 @@ section {
     color: #06402b;
 }
 
+#toggleDarkMode {
+    margin-top: 2em;
+}
+
+section.darkMode {
+    color:#032016
+}
+body.darkMode {
+    background-color: darkgrey;
+    color: white;
+}
+
+body.darkMode h1 {
+    color: red;
+}
+
 
 /* PUT THE REST OF THE MOBILE BASELINE LAYOUT HERE */
 
