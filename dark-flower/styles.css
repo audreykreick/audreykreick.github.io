@@ -43,10 +43,9 @@ header {
 #toggleDarkMode {
     margin-top: 2em;
     display: block;
-    width: 300px;
-    padding: 31px 5px;
     border-radius: 5px;
-    margin: 20% auto;
+    border-color: #06402B;
+    margin: 1% auto;
     background-color: rgb(229, 147, 213);
     text-align: center;
     font-family: times;
@@ -58,6 +57,7 @@ header {
 #toggleDarkMode:hover {
   background-color: #06402B;
   color: rgb(229, 147, 213);
+    border-color: rgb(229, 147, 213);
 }
 
 section {
