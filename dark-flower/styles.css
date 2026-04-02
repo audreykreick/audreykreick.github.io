@@ -48,6 +48,7 @@ section {
     font-size: .8em;
     color: #06402b;
 }
+/*dark mode edits here */
 
 #toggleDarkMode {
     position: absolute;
@@ -72,18 +73,25 @@ section {
 }
 
 body.darkMode section {
-    color: #031810;
+    color: rgb(244, 190, 215);
+    background-color: #06402b;
 }
 
-body.darkMode h1 {
-    color: rgb(244, 190, 215);
+body.darkMode #rhodieTitle {
+    background-color: #031810;
+}
+
+body.darkMode #rhodieTitle h1 {
+    color: #687f2e;
 }
 
 body.darkMode {
     background-color: #06402B;
-    color: white;
 }
 
+body.darkMode #rhodiePicture {
+    filter: brightness(75%)
+}
 
 /* PUT THE REST OF THE MOBILE BASELINE LAYOUT HERE */
 
