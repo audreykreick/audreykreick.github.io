@@ -41,6 +41,8 @@ header {
 }
 
 #toggleDarkMode {
+    position: relative;
+    z-index: 10;
     margin-top: 2em;
     display: block;
     border-radius: 5px;
@@ -61,12 +63,15 @@ header {
 }
 
 section {
-
     position: absolute;
     left: 1em;
     right: 1em;
     font-size: .8em;
     color: #06402b;
+}
+
+body.darkmode #rhodieTitle {
+    background-color: #06402B;
 }
 
 body.darkMode {
