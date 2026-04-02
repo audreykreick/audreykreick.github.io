@@ -69,10 +69,6 @@ section {
     color: #06402b;
 }
 
-#toggleDarkMode {
-    margin-top: 2em;
-}
-
 body.darkMode {
     background-color: #121212;
     color: #f5f5f5;
