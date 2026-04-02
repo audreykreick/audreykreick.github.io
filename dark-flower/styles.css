@@ -40,14 +40,35 @@ header {
     width: calc(100vw - 2em);
 }
 
+#toggleDarkMode {
+    margin-top: 2em;
+    display: block;
+    width: 300px;
+    padding: 31px 5px;
+    border-radius: 5px;
+    margin: 20% auto;
+    background-color: rgb(229, 147, 213);
+    text-align: center;
+    font-family: times;
+    color: #06402B;
+    transition-property: background-color;
+    transition-duration: 750ms;
+}
+
+#toggleDarkMode:hover {
+  background-color: #06402B;
+  color: rgb(229, 147, 213);
+}
+
 section {
-    
+
     position: absolute;
     left: 1em;
     right: 1em;
     font-size: .8em;
     color: #06402b;
 }
+
 
 /* PUT THE REST OF THE MOBILE BASELINE LAYOUT HERE */
 
@@ -68,5 +89,5 @@ section {
     }
 
     /* REST OF THE DESKTOP LAYOUT HERE */
-    
+
 }
