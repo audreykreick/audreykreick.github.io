@@ -7,7 +7,8 @@ left-image {
     top: 20%;
     width: auto;
     max-width: 100px;
-    min-widt: 50px;
+    min-width: 50px;
+    position: sticky;
 }
 
 right-image {
@@ -16,7 +17,8 @@ right-image {
     top: 20%;
     width: auto;
     max-width: 100px;
-    min-widt: 50px;
+    min-width: 50px;
+    position: sticky;
 }
 
 /* mobile-first design */
