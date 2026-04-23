@@ -1,24 +1,22 @@
 
 /* Quilt image on left and right side */
 
-left-image {
-    position: fixed;
-    left: 0;
-    top: 20%;
+.left-image {
+    left: 0vw;
+    top: 0%;
     width: auto;
     max-width: 100px;
     min-width: 50px;
-    position: sticky;
+    position: fixed;
 }
 
-right-image {
-    position: fixed;
-    right: 0;
-    top: 20%;
+.right-image {
+    right: 6vw;
+    top: 0%;
     width: auto;
     max-width: 100px;
     min-width: 50px;
-    position: sticky;
+    position: fixed;
 }
 
 /* mobile-first design */
@@ -51,6 +49,8 @@ main {
     padding: 15px;
     max-width: 800px;
     margin: 0 auto;
+    padding-left: 12vw;
+    padding-right: 12vw;
 }
 
 ul, ol {
@@ -71,6 +71,7 @@ li ul, li ol {
 
 @media screen and (min-width: 800px) {
 
+    main
     body {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -78,13 +79,6 @@ li ul, li ol {
         margin: 0 auto;
         column-gap: 40px;
         padding: 20px;
-    }
-
-    header {
-        grid-column: 1;
-        position: sticky;
-        align-self: start;
-        top: 0;
     }
 
     header .images {
