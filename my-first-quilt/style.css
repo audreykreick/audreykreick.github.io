@@ -1,4 +1,24 @@
 
+/* Quilt image on left and right side */
+
+left-image {
+    position: fixed;
+    left: 0;
+    top: 20%;
+    width: auto;
+    max-width: 100px;
+    min-widt: 50px;
+}
+
+right-image {
+    position: fixed;
+    right: 0;
+    top: 20%;
+    width: auto;
+    max-width: 100px;
+    min-widt: 50px;
+}
+
 /* mobile-first design */
 
 * {
