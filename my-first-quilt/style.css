@@ -61,16 +61,9 @@ header img {
 }
 
 main {
-    padding: 15px;
+  padding: 15px 12vw;
     max-width: 85vw;
     margin: 0 auto;
-    padding-left: 12vw;
-    padding-right: 12vw;
-}
-
-ul,
-ol {
-    padding-left: 20px;
 }
 
 li {
@@ -109,10 +102,6 @@ li ol {
         width: 100%;
         height: auto;
         object-fit: cover;
-    }
-
-    footer {
-        grid-column: 2;
     }
 
     .main-text {
@@ -181,13 +170,6 @@ nav.clicked>ul {
     max-height: 90vh;
 }
 
-nav>ul>li {
-    position: relative;
-    background-color: var(--nav-bkgd-color);
-    display: block;
-    margin: 1rem;
-}
-
 nav>ul>li>a {
     display: block;
     width: 100%;
@@ -214,10 +196,6 @@ nav>ul>li>ul {
 
 nav>ul>li.clicked>ul {
     max-height: 90vh;
-}
-
-nav>ul>li>ul>li {
-    padding: 0.5rem 0 0.5rem 0.5rem;
 }
 
 nav a {
@@ -291,5 +269,4 @@ nav>ul>li>ul>li:hover a {
      width: 90%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    
 }
