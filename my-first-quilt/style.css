@@ -279,28 +279,17 @@ nav>ul>li>ul>li:hover a {
 
 /* Home page photos */
 
-
 .home {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr;
+    padding: 1% 15%;
 }
 
 .sewing-machine img,
 .audrey-kreick img,
 .first-project img {
-     width: 30%;
+     width: 90%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
-}
-
-.sewing-maching img {
-    align-items: left;
-}
-
-.audrey-kreick img {
-    align-items: center;
-}
-
-.first-project img {
-    align-items: right;
+    
 }
