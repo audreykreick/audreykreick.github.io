@@ -242,6 +242,20 @@ nav>ul>li>ul>li:hover a {
         position: absolute;
     }
 
+    nav>ul>li.clicked>ul {
+        display: block;
+        visibility: visible;
+    }
+
+    nav>ul>li>ul li {
+        margin: 0;
+        white-space: nowrap;
+    }
+
+    nav>ul>li>a::after {
+        content: "";
+    }
+
     nav a {
     text-decoration: none;
     color: var(--nav-text-color);
