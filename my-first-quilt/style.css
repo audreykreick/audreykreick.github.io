@@ -276,3 +276,35 @@ nav>ul>li>ul>li:hover a {
     }
 
 }
+
+/* Home page photos */
+
+.sewing-machine {
+    height: 100vh;
+    width: var(--side-col-width);
+    display: flex;
+    align-items: right;
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+}
+
+.audrey-kreick {
+    height: 100vh;
+    width: var(--side-col-width);
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+}
+
+.first-project {
+    height: 100vh;
+    width: var(--side-col-width);
+    display: flex;
+    align-items: left;
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+}
