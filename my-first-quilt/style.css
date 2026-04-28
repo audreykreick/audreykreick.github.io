@@ -251,6 +251,10 @@ nav>ul>li>ul>li:hover a {
         visibility: visible;
     }
 
+    nav>ul>li>ul>li {
+        background-color: var(--nav-bkgd-color);
+    }
+
     nav>ul>li>ul li {
         margin: 0;
         white-space: nowrap;
