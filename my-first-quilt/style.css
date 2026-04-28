@@ -279,32 +279,28 @@ nav>ul>li>ul>li:hover a {
 
 /* Home page photos */
 
-.sewing-machine {
-    height: 100vh;
-    width: var(--side-col-width);
-    display: flex;
-    align-items: right;
-    height: 100%;
-    width: auto;
-    max-width: 100%;
+
+.home {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-.audrey-kreick {
-    height: 100vh;
-    width: var(--side-col-width);
-    display: flex;
-    align-items: center;
-    height: 100%;
-    width: auto;
-    max-width: 100%;
+.sewing-machine img,
+.audrey-kreick img,
+.first-project img {
+     width: 30%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
 }
 
-.first-project {
-    height: 100vh;
-    width: var(--side-col-width);
-    display: flex;
+.sewing-maching img {
     align-items: left;
-    height: 100%;
-    width: auto;
-    max-width: 100%;
+}
+
+.audrey-kreick img {
+    align-items: center;
+}
+
+.first-project img {
+    align-items: right;
 }
