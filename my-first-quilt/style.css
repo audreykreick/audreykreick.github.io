@@ -1,22 +1,37 @@
-
 /* Quilt image on left and right side */
 
-.left-image {
-    left: 0vw;
-    top: 0%;
-    width: auto;
-    max-width: 100px;
-    min-width: 50px;
+/*allows side columns to fluctuate between 50 and 300 px*/
+
+:root {
+    --side-col-width: clamp(25px, 16vw, 300px)
+}
+
+.left-image,
+.right-image {
     position: fixed;
+    top: 0;
+    height: 100vh;
+    width: var(--side-col-width);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-image img,
+.right-image img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    display: block;
+    max-width: 100%;
+}
+
+.left-image {
+    left: 0;
 }
 
 .right-image {
-    right: 7vw;
-    top: 0%;
-    width: auto;
-    max-width: 100px;
-    min-width: 50px;
-    position: fixed;
+    right: 0;
 }
 
 /* mobile-first design */
@@ -41,7 +56,7 @@ header img {
     width: 100%;
     max-width: 600px;
     height: auto;
-    border-radius: 8px; 
+    border-radius: 8px;
     margin: 15px 0;
 }
 
@@ -53,7 +68,8 @@ main {
     padding-right: 12vw;
 }
 
-ul, ol {
+ul,
+ol {
     padding-left: 20px;
 }
 
@@ -62,7 +78,8 @@ li {
     font-weight: 500;
 }
 
-li ul, li ol {
+li ul,
+li ol {
     margin-top: 5px;
     font-weight: normal;
 }
@@ -71,8 +88,7 @@ li ul, li ol {
 
 @media screen and (min-width: 800px) {
 
-    main
-    body {
+    main body {
         display: grid;
         grid-template-columns: 1fr 1fr;
         max-width: 1200px;
@@ -87,7 +103,7 @@ li ul, li ol {
         display: flex;
         flex-direction: column;
         gap: 20px;
-    } 
+    }
 
     header .images img {
         width: 100%;
@@ -95,17 +111,17 @@ li ul, li ol {
         object-fit: cover;
     }
 
-    footer{
+    footer {
         grid-column: 2;
     }
 
-.main-text {
-    grid-column: 1;
-    padding: 10px;
-    margin-bottom: 20px;
-    margin-top: 130px;
-    color: rgb(65, 36, 6);
-}
+    .main-text {
+        grid-column: 1;
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-top: 130px;
+        color: rgb(65, 36, 6);
+    }
 
 }
 
