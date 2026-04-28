@@ -77,6 +77,14 @@ li ol {
     font-weight: normal;
 }
 
+.home {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5% 18%;
+    gap: 2%;
+    justify-items: center;
+}
+
 /* REST OF THE DESKTOP LAYOUT HERE */
 
 @media screen and (min-width: 800px) {
@@ -87,6 +95,11 @@ li ol {
         margin-bottom: 20px;
         margin-top: 130px;
         color: rgb(65, 36, 6);
+    }
+
+    .home{
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: .5% 16%;
     }
 
 }
@@ -188,6 +201,19 @@ nav>ul>li>ul>li:hover a {
     color: var(--nav-hover-text-color);
 }
 
+/* Home page photos */
+
+
+.sewing-machine img,
+.audrey-kreick img,
+.first-project img {
+     width: 90%;
+    display: block;
+    margin: 0 auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
 
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
 @media screen and (orientation: landscape) {
@@ -230,23 +256,4 @@ nav>ul>li>ul>li:hover a {
         content: "";
     }
 
-}
-
-/* Home page photos */
-
-.home {
-    display: grid;
-    grid-template-columns: 1.5fr 1.5fr 1.5fr;
-    padding: 1% 16%;
-    justify-items: center;
-}
-
-.sewing-machine img,
-.audrey-kreick img,
-.first-project img {
-     width: 90%;
-    display: block;
-    margin: 0 auto;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
 }
