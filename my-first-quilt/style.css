@@ -1,6 +1,6 @@
 /* Quilt image on left and right side */
 
-/*allows side columns to fluctuate between 50 and 300 px*/
+/*allows side columns to fluctuate between 25 and 300 px*/
 
 :root {
     --side-col-width: clamp(25px, 16vw, 300px)
@@ -267,10 +267,6 @@ nav>ul>li>ul>li:hover a {
 
 nav>ul>li>ul>li:hover {
     background-color: var(--nav-hover-bkgd-color);
-}
-
-nav>ul>li>ul>li:hover a {
-    color: var(--nav-hover-text-color);
 }
 
 }
