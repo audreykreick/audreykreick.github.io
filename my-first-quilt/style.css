@@ -207,7 +207,7 @@ nav>ul>li>ul>li:hover a {
 .sewing-machine img,
 .audrey-kreick img,
 .first-project img {
-     width: 90%;
+    width: 90%;
     display: block;
     margin: 0 auto;
     aspect-ratio: 1 / 1;
@@ -242,18 +242,17 @@ nav>ul>li>ul>li:hover a {
         position: absolute;
     }
 
-    nav>ul>li.clicked>ul {
-        display: block;
-        visibility: visible;
-    }
+    nav a {
+    text-decoration: none;
+    color: var(--nav-text-color);
+}
 
-    nav>ul>li>ul li {
-        margin: 0;
-        white-space: nowrap;
-    }
+nav>ul>li>ul>li:hover {
+    background-color: var(--nav-hover-bkgd-color);
+}
 
-    nav>ul>li>a::after {
-        content: "";
-    }
+nav>ul>li>ul>li:hover a {
+    color: var(--nav-hover-text-color);
+}
 
 }
