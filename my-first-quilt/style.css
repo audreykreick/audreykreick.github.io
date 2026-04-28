@@ -102,6 +102,10 @@ li ol {
         padding: .5% 16%;
     }
 
+    :root {
+    --side-col-width: clamp(50px, 50vw)
+}
+
 }
 
 /* CSS for responsive menu demo */
