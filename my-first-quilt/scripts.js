@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
 
     // find the dark mode button
-    let darkModeButton = document.querySelector("navButton");
+    let navButton = document.querySelector("navButton");
 
     // add a click function and handler
     darkModeButton.addEventListener("click", function (e) {
