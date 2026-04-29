@@ -52,6 +52,11 @@ h1 {
     margin-bottom: 10px;
 }
 
+h2 {
+    font-family: sans-serif;
+    font-style: italic;
+}
+
 main {
     font-family: sans-serif;
   padding: 15px 12vw;
