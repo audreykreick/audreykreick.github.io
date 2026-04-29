@@ -269,3 +269,28 @@ nav>ul>li>ul>li:hover {
 }
 
 }
+
+/* navigation buttons */
+
+#navButtonSupplies {
+    position: center;
+    z-index: 10;
+    margin-top: 2em;
+    display: block;
+    border-radius: 10px;
+    border: 5px dashed #F3DFA2; 
+    padding: 15px;
+    margin: 2% auto;
+    background-color: white;
+    text-align: center;
+    font-family: Lucida Handwriting;
+    font-size: 25px;
+    color: #E072A4;
+    transition-property: background-color;
+    transition-duration: 750ms;
+}
+
+#navButtonSupplies:hover {
+  border: 5px dashed #358EBD; 
+    color: #5E467A;
+}
