@@ -66,3 +66,31 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    let navButtonTips = document.querySelector(".navButtonTips");
+
+    if (navButtonTips) {
+        navButtonTips.addEventListener("click", function (e) {
+            
+            // Go to menu URL
+            window.location.href = "tips.html";
+            
+        });
+    }
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    let navButtonProjects = document.querySelector(".navButtonProjects");
+
+    if (navButtonProjects) {
+        navButtonProjects.addEventListener("click", function (e) {
+            
+            // Go to menu URL
+            window.location.href = "first-projects.html";
+            
+        });
+    }
+});

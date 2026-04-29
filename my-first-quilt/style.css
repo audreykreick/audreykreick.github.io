@@ -272,7 +272,7 @@ nav>ul>li>ul>li:hover {
 
 /* navigation buttons */
 
-.navButtonSupplies {
+#navButtonSupplies {
     position: center;
     z-index: 10;
     margin-top: 2em;
@@ -290,7 +290,7 @@ nav>ul>li>ul>li:hover {
     transition-duration: 750ms;
 }
 
-.navButtonSupplies:hover {
+#navButtonSupplies:hover {
   border: 5px dashed #358EBD; 
     color: #5E467A;
 }
