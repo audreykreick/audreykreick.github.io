@@ -126,13 +126,16 @@ li ol {
     :root {
     --side-col-width: clamp(50px, 50vw)
     }
-
+    
 #navButtonSupplies,
 #navButtonTips,
 #navButtonProjects{
-    width: 25vw;
+    text-align: center;
+    display: inline-block;
+   width: 20vw;
+    gap: 10vw;
+    position: center;
 }
-
 
 }
 
