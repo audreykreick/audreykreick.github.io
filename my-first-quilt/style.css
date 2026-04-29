@@ -78,6 +78,34 @@ li ol {
     justify-items: center;
 }
 
+/* navigation buttons */
+
+#navButtonSupplies,
+#navButtonTips,
+#navButtonProjects{
+    position: center;
+    z-index: 10;
+    display: block;
+    border-radius: 10px;
+    border: 5px dashed #F3DFA2; 
+    padding: 1.5%;
+    margin: 2% auto;
+    width: 45vw;
+    background-color: white;
+    text-align: center;
+    font-family: Lucida Handwriting;
+    font-size: 150%;
+    color: #E072A4;
+    transition-property: background-color;
+}
+
+#navButtonSupplies:hover,
+#navButtonTips:hover,
+#navButtonProjects:hover {
+  border: 5px dashed #358EBD; 
+    color: #5E467A;
+}
+
 /* REST OF THE DESKTOP LAYOUT HERE */
 
 @media screen and (min-width: 800px) {
@@ -97,7 +125,14 @@ li ol {
 
     :root {
     --side-col-width: clamp(50px, 50vw)
+    }
+
+#navButtonSupplies,
+#navButtonTips,
+#navButtonProjects{
+    width: 25vw;
 }
+
 
 }
 
@@ -268,32 +303,4 @@ nav>ul>li>ul>li:hover {
     background-color: var(--nav-hover-bkgd-color);
 }
 
-}
-
-/* navigation buttons */
-
-#navButtonSupplies,
-#navButtonTips,
-#navButtonProjects{
-    position: center;
-    z-index: 10;
-    display: block;
-    border-radius: 10px;
-    border: 5px dashed #F3DFA2; 
-    padding: 1.5%;
-    margin: 2% auto;
-    width: 45vw;
-    background-color: white;
-    text-align: center;
-    font-family: Lucida Handwriting;
-    font-size: 150%;
-    color: #E072A4;
-    transition-property: background-color;
-}
-
-#navButtonSupplies:hover,
-#navButtonTips:hover,
-#navButtonProjects:hover {
-  border: 5px dashed #358EBD; 
-    color: #5E467A;
 }
