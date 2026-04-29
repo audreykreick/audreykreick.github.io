@@ -55,15 +55,14 @@ document.addEventListener("DOMContentLoaded", function () {
 // set up DOM loading event listener 
 document.addEventListener("DOMContentLoaded", function () {
 
-    // find the dark mode button
-    let navButtonSupplies = document.querySelector("navButtonSupplies");
+    let navButtonSupplies = document.querySelector(".navButtonSupplies");
 
-    // add a click function and handler
-    navButtonSupplies.addEventListener("click", function (e) {
-        
-        // when clicked, add class to the body called "darkMode"
-        document.body.classList.toggle("supplies.html");
-        
-    });
-
+    if (navButtonSupplies) {
+        navButtonSupplies.addEventListener("click", function (e) {
+            
+            // Go to menu URL
+            window.location.href = "supplies.html";
+            
+        });
+    }
 });
