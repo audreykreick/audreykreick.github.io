@@ -214,6 +214,7 @@ nav>ul>li>ul>li:hover a {
     width: 90%;
     display: block;
     margin: 0 auto;
+    border: 5px dashed #E072A4;
     aspect-ratio: 1 / 1;
     object-fit: cover;
 }
