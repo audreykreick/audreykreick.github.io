@@ -237,6 +237,10 @@ nav>ul>li>ul>li:hover a {
     color: var(--nav-hover-text-color);
 }
 
+nav>ul>li>ul>li {
+    padding: 5px;
+}
+
 /* Home page photos */
 
 
