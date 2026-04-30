@@ -87,7 +87,7 @@ li ol {
    display: grid;
     grid-template-columns: 1fr;
     padding: 5% 18%;
-    gap: 2%;
+   gap: 3% 1%;
     justify-items: center; 
 }
 
