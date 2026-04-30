@@ -268,7 +268,10 @@ nav>ul>li>ul>li {
 .first-project img,
 .pattern-one img,
 .pattern-two img,
-.pattern-three img{
+.pattern-three img,
+.pattern-four img,
+.pattern-five img,
+.pattern-six img{
     width: 90%;
     display: block;
     margin: 0 auto;
