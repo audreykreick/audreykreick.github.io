@@ -91,7 +91,12 @@ li ol {
     justify-items: center; 
 }
 
-
+.projects{
+    max-width: 60%;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+}
 
 /* navigation buttons */
 
