@@ -75,13 +75,23 @@ li ol {
     font-weight: normal;
 }
 
-.home {
+.home{
     display: grid;
     grid-template-columns: 1fr;
     padding: 5% 18%;
     gap: 2%;
     justify-items: center;
 }
+
+.patterns{
+   display: grid;
+    grid-template-columns: 1fr;
+    padding: 5% 18%;
+    gap: 2%;
+    justify-items: center; 
+}
+
+
 
 /* navigation buttons */
 
@@ -126,6 +136,11 @@ li ol {
     .home{
         grid-template-columns: 1fr 1fr 1fr;
         padding: .5% 16%;
+    }
+
+    .patterns{
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 3%;
     }
 
     :root {
