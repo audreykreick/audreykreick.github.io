@@ -272,12 +272,12 @@ nav>ul>li>ul>li {
 .pattern-four img,
 .pattern-five img,
 .pattern-six img,
-.cover.jpg img,
-.pillow.jpg img,
-.bags.jpg img,
-.totes.jpg img,
-.bow.jpg img,
-.halloween.jpg img{
+.bow-hanging img,
+.tote img,
+.makeup-bag img,
+.cover img,
+.pillow img,
+.halloween img{
     width: 90%;
     display: block;
     margin: 0 auto;
