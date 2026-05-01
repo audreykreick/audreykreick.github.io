@@ -266,7 +266,7 @@ nav>ul>li>ul>li {
     padding: 5px;
 }
 
-/* Home page photos */
+/* All photos except side ones*/
 
 .sewing-machine img,
 .audrey-kreick img,
@@ -282,7 +282,19 @@ nav>ul>li>ul>li {
 .makeup-bag img,
 .cover img,
 .pillow img,
-.halloween img{
+.halloween img,
+.machine img,
+.ripper img,
+.iron img,
+.pins-clips img,
+.fab-scissors img,
+.rotary-cutter img,
+.cutting-mat img,
+.ruler img,
+.long-arm img,
+.fabric img,
+.batting img,
+.thread img,{
     width: 90%;
     display: block;
     margin: 0 auto;
