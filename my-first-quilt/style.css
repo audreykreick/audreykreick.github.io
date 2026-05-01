@@ -291,16 +291,16 @@ nav>ul>li>ul>li {
 .rotary-cutter img,
 .cutting-mat img,
 .ruler img,
-.long-arm img,
+.long-arm,
 .fabric img,
 .batting img,
-.thread img,{
+.thread img{
     width: 90%;
     display: block;
     margin: 0 auto;
     border: 5px dashed #E072A4;
     aspect-ratio: 1 / 1;
-    object-fit: cover
+    object-fit: cover;
 }
 
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
