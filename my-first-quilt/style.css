@@ -303,10 +303,22 @@ nav>ul>li>ul>li {
     object-fit: cover;
 }
 
+/* desktop supplies */
 
-
+@media (min-width: 800px) {
+    
 .machine,
-.ripper {
+.ripper,
+.iron,
+.pins-clips,
+.fab-scissors,
+.rotary-cutter,
+.cutting-mat,
+.ruler,
+.long-arm,
+.fabric,
+.batting,
+.thread {
     display: flex;
     align-items: center;
     gap: 40px;
@@ -314,18 +326,22 @@ nav>ul>li>ul>li {
 }
 
 .machine img,
-.ripper img {
+.ripper img, 
+.iron img,
+.pins-clips img,
+.fab-scissors img,
+.rotary-cutter img,
+.cutting-mat img,
+.ruler img,
+.long-arm img,
+.fabric img,
+.batting img,
+.thread img{
     width: 200px;
     flex-shrink: 0;
     margin-bottom: 20px;
     margin-top: 20px;
 }
-
-.machine h2,
-.machine p,
-.ripper h2,
-.ripper p {
-    margin: 0;
 }
 
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
