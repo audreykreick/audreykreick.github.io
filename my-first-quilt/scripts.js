@@ -94,3 +94,17 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    let navButtonProjects = document.querySelector(".navButtonPlaces");
+
+    if (navButtonProjects) {
+        navButtonProjects.addEventListener("click", function (e) {
+            
+            // Go to menu URL
+            window.location.href = "places.html";
+            
+        });
+    }
+});
