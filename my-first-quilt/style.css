@@ -304,15 +304,28 @@ nav>ul>li>ul>li {
 }
 
 
-/*Supplies Page*/
 
-.supplies-page h2{
-    padding-left: 20vw;
+.machine,
+.ripper {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 5%;
 }
 
-.machine img{
-width: 200px;
-    float: left;  
+.machine img,
+.ripper img {
+    width: 200px;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.machine h2,
+.machine p,
+.ripper h2,
+.ripper p {
+    margin: 0;
 }
 
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
