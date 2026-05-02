@@ -266,8 +266,6 @@ nav>ul>li>ul>li {
     padding: 5px;
 }
 
-/* All photos except side ones*/
-
 .sewing-machine img,
 .audrey-kreick img,
 .first-project img,
@@ -282,24 +280,35 @@ nav>ul>li>ul>li {
 .makeup-bag img,
 .cover img,
 .pillow img,
-.halloween img,
+.halloween img{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    border: 5px dashed #E072A4;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+/* mobile supplies */
+
 .machine img,
-.ripper img,
+.ripper img, 
 .iron img,
 .pins-clips img,
 .fab-scissors img,
 .rotary-cutter img,
 .cutting-mat img,
 .ruler img,
-.long-arm,
+.long-arm img,
 .fabric img,
 .batting img,
 .thread img{
-    width: 90%;
-    display: block;
-    margin: 0 auto;
-    border: 5px dashed #E072A4;
-    aspect-ratio: 1 / 1;
+     border: 5px dashed #E072A4;
+    width: 200px;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+     aspect-ratio: 1 / 1;
     object-fit: cover;
 }
 
@@ -325,23 +334,6 @@ nav>ul>li>ul>li {
     margin-left: 5%;
 }
 
-.machine img,
-.ripper img, 
-.iron img,
-.pins-clips img,
-.fab-scissors img,
-.rotary-cutter img,
-.cutting-mat img,
-.ruler img,
-.long-arm img,
-.fabric img,
-.batting img,
-.thread img{
-    width: 200px;
-    flex-shrink: 0;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
 }
 
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
