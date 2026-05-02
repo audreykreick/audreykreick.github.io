@@ -303,6 +303,18 @@ nav>ul>li>ul>li {
     object-fit: cover;
 }
 
+
+/*Supplies Page*/
+
+.supplies-page h2{
+    padding-left: 20vw;
+}
+
+.machine img{
+width: 200px;
+    float: left;  
+}
+
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
 @media screen and (orientation: landscape) {
 
