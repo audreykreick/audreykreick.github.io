@@ -296,7 +296,7 @@ nav>ul>li>ul>li {
     object-fit: cover;
 }
 
-/* mobile supplies */
+/* mobile supplies and creators*/
 
 .machine img,
 .ripper img, 
@@ -309,7 +309,15 @@ nav>ul>li>ul>li {
 .long-arm img,
 .fabric img,
 .batting img,
-.thread img{
+.thread img,
+.tami img,
+.sydney img,
+.dakota img,
+.heaven img,
+.christina img,
+.maggie img,
+.jen img,
+.rachel img{
      border: 5px dashed #E072A4;
     width: 200px;
     flex-shrink: 0;
@@ -319,7 +327,20 @@ nav>ul>li>ul>li {
     object-fit: cover;
 }
 
-/* desktop supplies */
+.tami img,
+.sydney img,
+.dakota img,
+.heaven img,
+.christina img,
+.maggie img,
+.jen img,
+.rachel img{
+height: 200px;
+border-radius: 50%;
+    
+}
+
+/* desktop supplies and creators*/
 
 @media (min-width: 800px) {
     
@@ -334,7 +355,15 @@ nav>ul>li>ul>li {
 .long-arm,
 .fabric,
 .batting,
-.thread {
+.thread,
+.rachel,
+.jen,
+.maggie,
+.christina,
+.heaven,
+.dakota,
+.sydney,
+.tami{
     display: flex;
     align-items: center;
     gap: 40px;
