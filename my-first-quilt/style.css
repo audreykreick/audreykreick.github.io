@@ -370,6 +370,15 @@ border-radius: 50%;
     margin-left: 5%;
 }
 
+.bow-hanging img,
+.tote img,
+.makeup-bag img,
+.cover img,
+.pillow img,
+.halloween img{
+    width: 80%;
+}
+
 }
 
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
