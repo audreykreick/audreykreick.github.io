@@ -1,0 +1,15 @@
+/* fonts */
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: bold, italic;
+}
+
+ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
