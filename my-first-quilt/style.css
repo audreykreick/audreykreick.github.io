@@ -381,6 +381,25 @@ border-radius: 50%;
 
 }
 
+/*pattern inspo images*/
+
+.inspo-one img,
+.inspo-two img,
+.inspo-three img,
+.inspo-four img,
+.inspo-five img,
+.inspo-six img,
+.inspo-seven img,
+.inspo-eight img,
+.inspo-nine img{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    border: 5px dashed #E072A4;
+    object-fit: cover;
+    margin: 30px;
+}
+
 /* ----- MEDIA QUERY for landscape/desktop layout ----- */
 @media screen and (orientation: landscape) {
 
