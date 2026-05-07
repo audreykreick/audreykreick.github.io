@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+html, body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+h1, h2, p {
+	padding: 0;
+	margin: 0;
+}
+
+main {
+    height: 500vh;
+    background-image: url("../images/empire-state-building.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+section {
+    position: relative;
+    height: 100vh;
+}
+
+section > .content {
+    position: absolute;
+    width: 42vw;
+    top: 20vh;
+    right: 4vw;
+}
+
+section > .content > p {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+section > .controls {
+    position: absolute;
+    width: 42vw;
+    right: 4vw;
+    padding: 1rem; 
+}
+
+section > .controls.goNext {
+    bottom: 2vh;
+}
+
+section > .controls.goPrevious {
+    top: 2vh;
+}
+
+section > .controls > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #000;
+}
+
+section > .controls > a:hover {
+    color: #fff;
+}
+
+#section1 p,
+#section1 h1 {
+    text-transform: uppercase;
+}
+
+#section1 h1 {
+    font-size: 7rem;
+    line-height: 6rem;
+    font-family: Limelight, serif;
+    margin-left: -0.4rem;
+    padding-left: 1rem;
+}
+
+#section5 p {
+    background-color: #cfddebbb;
+    
+}
