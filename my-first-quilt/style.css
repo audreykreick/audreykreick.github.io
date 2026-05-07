@@ -273,6 +273,31 @@ nav>ul>li>ul>li {
     padding: 5px;
 }
 
+/*videos page*/
+
+@media screen and (min-width: 800px) {
+
+.video-collection {
+    display: grid ;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    width: 100%;
+}
+    
+}
+
+.video-collection iframe{
+     border: 5px dashed #E072A4;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+.video-collection{
+    gap: 25px;
+    align-content: center;
+}
+
+
 .sewing-machine img,
 .audrey-kreick img,
 .first-project img,
